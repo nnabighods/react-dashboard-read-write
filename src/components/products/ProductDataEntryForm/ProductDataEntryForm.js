@@ -31,7 +31,7 @@ function ProductDataEntryForm ({children, handleProductName, handleProductPrice,
              </ProductDescription>
 
              <div>
-             <SubmitButton width="100%" padding="0.75rem 0" margin="1.125rem 0 0 0" type="submit">Add Product</SubmitButton>
+             <SubmitButton width="100%" padding="0.75rem 0" margin="2rem 0 0 0" type="submit">Add Product</SubmitButton>
              </div>
 
         </ProductDataEntryFormStyles>

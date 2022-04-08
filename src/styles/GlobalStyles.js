@@ -408,6 +408,18 @@ main button svg,
   margin-bottom:0.25rem;
 }
 
+.card-edit-btn, .card-delete-btn {
+  transition: all 0.2s ease-in;
+}
+
+.card-edit-btn:hover {
+  color: grey;
+}
+
+.card-delete-btn:hover {
+  color: #f08080 !important;
+}
+
 @media screen and (min-width: 500px) {
   .all-products-panel {
     flex-direction: row;

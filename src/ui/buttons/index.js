@@ -20,9 +20,8 @@ const IconButton = styled(Button)`
 `
 
 const SubmitButton = styled(Button)`
-    background-color: ${props => props.bgcolor || '#2563eb'};
+    background-color: ${props => props.bgcolor || '#0d6efd'};
     color: ${props => props.color || '#f8fafc'}; 
-    font-weight: ${props => props.fw || '700'}; 
     font-size: ${props => props.fs || '14px'};
 `
 

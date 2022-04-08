@@ -1,8 +1,7 @@
 import React from "react";
 
 import Card from 'react-bootstrap/Card';
-
-
+import * as Icon from 'react-feather';
 
 function ProductCard ({children, product, ...props}) {
     const{productName, productPrice, imageUrl,  productDescription} = {...product};
@@ -15,6 +14,10 @@ function ProductCard ({children, product, ...props}) {
             <Card.Text>
             {productDescription}
             </Card.Text>
+            <div className="d-flex justify-content-end mt-3 gap-3"> 
+                <Icon.Edit2 className="card-edit-btn"/>
+                <Icon.Trash className="text-danger card-delete-btn"/>
+            </div>
         </Card.Body>
         </Card>
     );

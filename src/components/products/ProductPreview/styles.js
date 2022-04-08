@@ -25,7 +25,6 @@ const ProductImage = styled.div`
  
  const ProductName = styled.h2`
    font-weight:700;
-   color:#1e293b;
    word-wrap: break-word;
  `;
  
